@@ -1,4 +1,4 @@
 # Game-Engine
 The interactive-fiction game engine we designed in class.
 
-This is the simplest form of this that I can imagine, but hopefully it is useful to you. If you choose to use this, your responsibility will be to fill out game.json with enough locations to meet the project requirements. Since this is licensed with the MIT License, you can certainly do whatever you would like with this as a starting place.
+This is an interactive fiction game where the player is a detective. Explore the scene of the murder, and when you think you found out the truth, visit the police station to see if you were right!

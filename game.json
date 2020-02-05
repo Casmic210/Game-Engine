@@ -1,22 +1,311 @@
 {
-	"START": {
-		"name": "",
-		"desc": "",
+	"BODY": {
+		"name": "The Area the Body was Discovered",
+		"print":"Good morning Detective. The body of Alan Turner was found at 7am this morning by an office employee, and Alan's coworker, Alice Smith. Headquaters wants to label this a suicide, but me and the Police are not so sure. investigate the scene, and when you think you know the whole truth come visit the POLICE station. In the meantime don't forget to check out the ROOF, the BODY, the CORONER, the ROAD, the PARKING lot, the CAMERAS, the SUSPECTS, and the OFFICES.",
+		"desc": "The outline of the victim's location. The body was taken to the CORONER this morning. Now only the outline remains. Despite having fallen from the ROOF, the amount of blood on the ground is minimal.",
 		"exits": [
 			{
-				"exit": "EXIT1",
-				"target": "LOCATION2"
+				"exit": "ROOF",
+				"target": "ROOF"
+			},
+			{
+				"exit": "ROAD",
+				"target": "ROAD"
+			},
+			{
+				"exit": "CAMERAS",
+				"target": "CAMERAS"
+			},
+			{
+				"exit": "SUSPECTS",
+				"target": "SUSPECTS"
+			},
+			{
+				"exit": "CORONER",
+				"target": "CORONER"
+			},
+			{
+				"exit": "PARKING",
+				"target": "PARKING"
+			},
+			{
+				"exit": "OFFICES",
+				"target": "OFFICES"
+			},
+			{
+				"exit": "POLICE",
+				"target": "POLICE"
 			}
 		]
 	}
-	,"LOCATION2": {
-		"name": "",
+	,"ROOF": {
+		"name": "Roof of the Building",
 		"desc": "",
 		"exits": [
 			{
-				"exit": "EXIT1",
-				"target": "START"
+				"exit": "BODY",
+				"target": "BODY"
+			},
+			{
+				"exit": "ROAD",
+				"target": "ROAD"
+			},
+			{
+				"exit": "CAMERAS",
+				"target": "CAMERAS"
+			},
+			{
+				"exit": "SUSPECTS",
+				"target": "SUSPECTS"
+			},
+			{
+				"exit": "CORONER",
+				"target": "CORONER"
+			},
+			{
+				"exit": "PARKING",
+				"target": "PARKING"
+			},
+			{
+				"exit": "OFFICES",
+				"target": "OFFICES"
+			},
+			{
+				"exit": "POLICE",
+				"target": "POLICE"
 			}
 		]
+	}
+	,"ROAD": {
+		"name": "The Roadside",
+		"desc": "",
+		"exits": [
+			{
+				"exit": "ROOF",
+				"target": "ROOF"
+			},
+			{
+				"exit": "BODY",
+				"target": "BODY"
+			},
+			{
+				"exit": "CAMERAS",
+				"target": "CAMERAS"
+			},
+			{
+				"exit": "SUSPECTS",
+				"target": "SUSPECTS"
+			},
+			{
+				"exit": "CORONER",
+				"target": "CORONER"
+			},
+			{
+				"exit": "PARKING",
+				"target": "PARKING"
+			},
+			{
+				"exit": "OFFICES",
+				"target": "OFFICES"
+			},
+			{
+				"exit": "POLICE",
+				"target": "POLICE"
+			}
+		]
+	}
+	,"CAMERAS": {
+		"name": "The Mounted Security Cameras",
+		"desc": "",
+		"exits": [
+			{
+				"exit": "ROOF",
+				"target": "ROOF"
+			},
+			{
+				"exit": "ROAD",
+				"target": "ROAD"
+			},
+			{
+				"exit": "BODY",
+				"target": "BODY"
+			},
+			{
+				"exit": "SUSPECTS",
+				"target": "SUSPECTS"
+			},
+			{
+				"exit": "CORONER",
+				"target": "CORONER"
+			},
+			{
+				"exit": "PARKING",
+				"target": "PARKING"
+			},
+			{
+				"exit": "OFFICES",
+				"target": "OFFICES"
+			},
+			{
+				"exit": "POLICE",
+				"target": "POLICE"
+			}
+		]
+	}
+	,"SUSPECTS": {
+		"name": "The 3 Coworkers who last saw Alan",
+		"desc": "",
+		"exits": [
+			{
+				"exit": "ROOF",
+				"target": "ROOF"
+			},
+			{
+				"exit": "ROAD",
+				"target": "ROAD"
+			},
+			{
+				"exit": "CAMERAS",
+				"target": "CAMERAS"
+			},
+			{
+				"exit": "BODY",
+				"target": "BODY"
+			},
+			{
+				"exit": "CORONER",
+				"target": "CORONER"
+			},
+			{
+				"exit": "PARKING",
+				"target": "PARKING"
+			},
+			{
+				"exit": "OFFICES",
+				"target": "OFFICES"
+			},
+			{
+				"exit": "POLICE",
+				"target": "POLICE"
+			}
+		]
+	}
+	,"PARKING": {
+		"name": "The Parking Lot for the Building",
+		"desc": "",
+		"exits": [
+			{
+				"exit": "ROOF",
+				"target": "ROOF"
+			},
+			{
+				"exit": "ROAD",
+				"target": "ROAD"
+			},
+			{
+				"exit": "CAMERAS",
+				"target": "CAMERAS"
+			},
+			{
+				"exit": "SUSPECTS",
+				"target": "SUSPECTS"
+			},
+			{
+				"exit": "CORONER",
+				"target": "CORONER"
+			},
+			{
+				"exit": "BODY",
+				"target": "BODY"
+			},
+			{
+				"exit": "OFFICES",
+				"target": "OFFICES"
+			},
+			{
+				"exit": "POLICE",
+				"target": "POLICE"
+			}
+		]
+	}
+	,"OFFICES": {
+		"name": "The 3 Suspects and Alan's Offices",
+		"desc": "",
+		"exits": [
+			{
+				"exit": "ROOF",
+				"target": "ROOF"
+			},
+			{
+				"exit": "ROAD",
+				"target": "ROAD"
+			},
+			{
+				"exit": "CAMERAS",
+				"target": "CAMERAS"
+			},
+			{
+				"exit": "SUSPECTS",
+				"target": "SUSPECTS"
+			},
+			{
+				"exit": "CORONER",
+				"target": "CORONER"
+			},
+			{
+				"exit": "PARKING",
+				"target": "PARKING"
+			},
+			{
+				"exit": "BODY",
+				"target": "BODY"
+			},
+			{
+				"exit": "POLICE",
+				"target": "POLICE"
+			}
+		]
+	}
+	,"CORONER": {
+		"name": "The Coroner's Office",
+		"desc": "",
+		"exits": [
+			{
+				"exit": "ROOF",
+				"target": "ROOF"
+			},
+			{
+				"exit": "ROAD",
+				"target": "ROAD"
+			},
+			{
+				"exit": "CAMERAS",
+				"target": "CAMERAS"
+			},
+			{
+				"exit": "SUSPECTS",
+				"target": "SUSPECTS"
+			},
+			{
+				"exit": "BODY",
+				"target": "BODY"
+			},
+			{
+				"exit": "PARKING",
+				"target": "PARKING"
+			},
+			{
+				"exit": "OFFICES",
+				"target": "OFFICES"
+			},
+			{
+				"exit": "POLICE",
+				"target": "POLICE"
+			}
+		]
+	}
+	,"POLICE": {
+		"name": "The Police Station",
+		"desc": ""
 	}
 }
